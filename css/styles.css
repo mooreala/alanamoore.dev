@@ -1,0 +1,103 @@
+/* COLOR PALETTE
+https://coolors.co/c0caad-9da9a0-654c4f-b26e63-cec075
+#CB997E - warm brown
+#DDBEA9 - light brown
+#FFE8D6 - very light tan
+#B7B7A4 - light green
+#A5A58D - mid green
+#6B705C - deeper green
+*/
+
+
+/* Global styles
+----------------------------------------------------------*/
+body {
+    color: #4E3D42;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #cec075;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile
+----------------------------------------------------------*/
+header {
+    background: #6D6466;
+    color: #f1ecec;
+}
+
+/* Projects
+----------------------------------------------------------*/
+.projects {
+    background: #C9D5B5;
+}
+
+.projects a {
+    color: #002E2C;
+}
+
+.projects .btn {
+    color: #e8d7f1;
+    background: #002E2C;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(109, 100, 102, 80%);
+}
+
+/* Work Experience
+----------------------------------------------------------*/
+.work-experience {
+    background: #E3DBDB;
+}
+
+/* Education
+----------------------------------------------------------*/
+.education {
+    
+}
+
+/* Contact
+----------------------------------------------------------*/
+footer {
+    background: #002E2C;
+    color: #E3DBDB;
+}
